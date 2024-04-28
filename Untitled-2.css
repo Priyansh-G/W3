@@ -1,0 +1,118 @@
+body::-webkit-scrollbar{width:5px;}
+body::-webkit-scrollbar-track{background:#1e1e24;}
+body::-webkit-scrollbar-thumb{background:#C0F;border-radius:200px;}			
+body{background:url(wallpaperflare.com_wallpaper.jpg);
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 background-position:center center;
+	 background-attachment:fixed;
+	 text-align:left;
+	 height: 100%;}
+
+label.logo{ color:white;
+			font-size:35px;
+			line-height: 45px;
+			}
+nav{background:transparent;
+width: 100%;}
+nav li{float:right;
+		color:white;
+    	padding: 14px 16px;
+    	text-decoration: none;
+     	font-size: 17px;
+		list-style-type:none;
+		display:inline-block;
+		}
+
+nav li:hover{background-color:white;
+    		 color:black;
+			 transition-duration:0.6s;}
+
+nav li:active{background-color:white;
+     		  color:white;}
+
+.search-box{position:fixed;
+	align-content: center;
+			top: 64%;
+			left: 48.9%;
+			transform: translate(-50%, -50%);
+			height: 51px;
+			padding: 0px;
+			background: #2f3640;
+			border: 0px;
+			text-align:center;
+			width: 0px;}
+
+.search-box:hover{ width:240px;
+			transition:1s;
+				border-radius:30px;
+			left:51%;}
+
+.search-box:active{width:240px;}
+
+.search-btn{float:right;
+			height:50px;
+			width:50px;
+			position:fixed;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items:center; 
+			}
+.search-txt{border:none;
+			background: none;
+			float: left;
+			padding: 0px;
+			width: 51px;
+			font-size: 16px;
+			transition: 0.3s;
+			line-height: 50px;
+	text-align:center;
+	position:fixed absolute;
+color:#C0F;}
+
+.search-txt:hover{width:240px;}
+
+.hh{background-color:#FFF;
+	color:#000;			
+	border-radius:20px;
+	border-spacing:10px;
+	font-family:sans-serif;
+	margin:30px ;
+	margin-top:41%;
+	position:sticky;
+}
+@media screen and (max-width : 500px ){	
+body{margin-left:0px;}
+	
+nav{background:#1e1e24;
+	height:100%;
+	width:160px;
+	margin-top:0%;
+	}
+
+nav li{background:#1e1e24;
+		width: 50px;
+	height: 100%;
+	float: left;
+	position:relative;
+	
+		
+}
+	
+nav li:hover{width:100px;
+			text-align:center;
+			background-color:#C0F;
+			transition-duration: 0.6s;}
+	
+nav li:active{background-color:white;
+     		  color:white;}
+		
+.hh{margin:10px;
+	margin-top:175%;
+	font-size:16px;}
+
+.srh {padding:3px;}
+	
+.search-box {left:48%;}
+}
